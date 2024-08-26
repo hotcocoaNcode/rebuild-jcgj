@@ -421,7 +421,7 @@ void waveUpdate(double dt) {
 
 void loadGameplay() {
     clearGameObjects();
-    currentGameState = MAP_BUILDER;
+    currentGameState = PLAYING;
     setInMenu(false);
     playRandomThematic();
 
